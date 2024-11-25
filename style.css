@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: monospace;
+    background: url('background/Open.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.ascii-button {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.ascii-art {
+    white-space: pre;
+    font-size: 1.5em;
+    text-align: center;
+    line-height: 1.2em;
+    color: black;
+    cursor: pointer;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.ascii-art:hover {
+    color: #4CAF50;
+    transform: scale(1.05);
+}

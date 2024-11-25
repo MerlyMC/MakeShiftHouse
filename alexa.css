@@ -1,0 +1,16 @@
+/* Reset body and html */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Full-page clickable area */
+.full-page-link {
+    display: block;
+    height: 100%;
+    width: 100%;
+    background: url('background/Alexa.jpg') no-repeat center center fixed;
+    background-size: cover;
+    text-decoration: none;
+}
