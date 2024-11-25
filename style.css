@@ -5,7 +5,7 @@ body {
     height: 100vh;
     margin: 0;
     font-family: monospace;
-    background: url('background/Open.jpg') no-repeat center center fixed;
+    background: url('background/open.jpg') no-repeat center center fixed;
     background-size: cover;
 }
 
